@@ -3,3 +3,104 @@
 @import "_generals.scss";
 @import "_mixin.scss";
 @import "_variables.scss";
+
+
+h1,
+h2 {
+    margin: 5vh;
+    text-align: center;
+}
+
+
+.wrap {
+
+    h3 {
+        color: lightgray;
+        font-size: 3rem;
+    }
+
+    color: whitesmoke;
+    border-radius: 20px;
+    margin-top: 5vh;
+    margin-left: 23%;
+    background: rgb(48, 48, 48);
+    text-align: center;
+    padding: 3% 0;
+    width: 50%;
+
+    #cpuChoice {
+        color: rgb(76, 111, 10);
+        border: 1px solid white;
+        border-radius: 20px;
+        border-style: dashed;
+        padding: 3%;
+        border-bottom: 1px solid white;
+    }
+
+
+    #result-of-game {
+        border-top: 4px solid white;
+
+    }
+
+    #result {
+        color: yellow;
+        font-size: 3rem;
+        border-top: 4px dashed white;
+
+    }
+
+    .display-flex-score {
+        display: flex;
+        justify-content: center;
+
+        h2 {
+            color: rgb(67, 79, 67);
+        }
+    }
+
+
+    #scorePlayerOutput,
+    #scoreCPUOutput {
+        color: yellow;
+        margin: 10px;
+    }
+
+
+
+    .buttons {
+        border-top: 4px solid white;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+
+    #player_rock,
+    #player_paper,
+    #player_scissors {
+        border: 2px solid #d2bdff;
+        height: 80px;
+        width: 200px;
+        border-radius: 4px;
+        position: relative;
+        cursor: pointer;
+        font-family: "Roboto", sans-serif;
+        margin: 25px;
+
+    }
+
+    #player_rock:hover,
+    #player_paper:hover,
+    #player_scissors:hover {
+        color: white;
+        background: black;
+        transition-delay: 0.5ms;
+    }
+
+    #reset a {
+        color: rgb(137, 201, 17);
+    }
+}

@@ -14,26 +14,96 @@ body {
   max-width: 100%;
   overflow-x: hidden;
   margin: 0 auto;
-  /* max-width: 1440px; */
+  font-family: sans-serif;
 }
 
+/* =================================== */
+/* 
+(Oder statt left und right = 0
+Mit with:100%) */
+/* Sticky Navbar */
+/* ======================
+    article - grid areas
+========================*/
+/* ======================
+section - flex in grid
+========================*/
+/* offset-x | offset-y | blur-radius | color */
+h1,
+h2 {
+  margin: 5vh;
+  text-align: center;
+}
 
-/* =================================== */
-/* ------💀--- h•e•a•d•e•r -💀 ---------*/
-/* =================================== */
+.wrap {
+  color: whitesmoke;
+  border-radius: 20px;
+  margin-top: 5vh;
+  margin-left: 23%;
+  background: rgb(48, 48, 48);
+  text-align: center;
+  padding: 3% 0;
+  width: 50%;
+}
+.wrap h3 {
+  color: lightgray;
+  font-size: 3rem;
+}
+.wrap #cpuChoice {
+  color: rgb(76, 111, 10);
+  border: 1px solid white;
+  border-radius: 20px;
+  border-style: dashed;
+  padding: 3%;
+  border-bottom: 1px solid white;
+}
+.wrap #result-of-game {
+  border-top: 4px solid white;
+}
+.wrap #result {
+  color: yellow;
+  font-size: 3rem;
+  border-top: 4px dashed white;
+}
+.wrap .display-flex-score {
+  display: flex;
+  justify-content: center;
+}
+.wrap .display-flex-score h2 {
+  color: rgb(67, 79, 67);
+}
+.wrap #scorePlayerOutput,
+.wrap #scoreCPUOutput {
+  color: yellow;
+  margin: 10px;
+}
+.wrap .buttons {
+  border-top: 4px solid white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.wrap #player_rock,
+.wrap #player_paper,
+.wrap #player_scissors {
+  border: 2px solid #d2bdff;
+  height: 80px;
+  width: 200px;
+  border-radius: 4px;
+  position: relative;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  margin: 25px;
+}
+.wrap #player_rock:hover,
+.wrap #player_paper:hover,
+.wrap #player_scissors:hover {
+  color: white;
+  background: black;
+  transition-delay: 0.5ms;
+}
+.wrap #reset a {
+  color: rgb(137, 201, 17);
+}
 
-/* =================================== */
-/* ------🧭-- n•a•v-b•a•r --🧭---------*/
-/* =================================== */
-
-/* =================================== */
-/*---------  m•a•i•n  ----------------*/
-/* =================================== */
-
-/* =================================== */
-/* --------👣 - f•o•o•t•e•r -----------*/
-/* =================================== */
-
-/* =================================== */
-/* --🖥- m•e•d•i•a-q•u•e•r•i•e•s -📲--- */
-/* =================================== */
+/*# sourceMappingURL=style.css.map */
