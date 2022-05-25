@@ -9,8 +9,17 @@ h1,
 h2 {
     margin: 5vh;
     text-align: center;
+    color: lightgray;
 }
 
+h1:nth-of-type(1) {
+    font-size: 4rem;
+}
+
+h1:nth-of-type(2) {
+    text-transform: uppercase;
+    color: lightskyblue;
+}
 
 .wrap {
 
@@ -27,6 +36,7 @@ h2 {
     text-align: center;
     padding: 3% 0;
     width: 50%;
+    box-shadow: 5px 5px 48px 5px rgba(0, 0, 0, 0.61);
 
     #cpuChoice {
         color: rgb(76, 111, 10);
@@ -69,10 +79,16 @@ h2 {
 
 
     .buttons {
+
         border-top: 4px solid white;
         text-align: center;
         display: flex;
         justify-content: center;
+
+        button {
+            font-size: 3rem;
+
+        }
     }
 
 
@@ -84,7 +100,7 @@ h2 {
         border: 2px solid #d2bdff;
         height: 80px;
         width: 200px;
-        border-radius: 4px;
+        border-radius: 50%;
         position: relative;
         cursor: pointer;
         font-family: "Roboto", sans-serif;
